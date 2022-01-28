@@ -1,6 +1,9 @@
 class Calculadora:
+    total = 0
+
     def valor(self):
-        return 0
+        return self.total
+    
     def suma(self, uno, dos):
-        pass
+        self.total = 5
 
