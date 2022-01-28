@@ -1,2 +1,3 @@
 class Calculadora:
-    pass
+    def valor(self):
+        return 1
